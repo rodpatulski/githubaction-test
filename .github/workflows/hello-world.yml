@@ -1,0 +1,12 @@
+name: Hello world
+
+on: [push,pull_request]
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+    - uses: ./
+    
