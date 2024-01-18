@@ -3,10 +3,15 @@
   "version": "1.0.1",
   "description": "Egghead - Create a New Github Action with Javascript",
   "author": "Colby Fayock <hello@colbyfayock.com>",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "ncc build src/action.js -o dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "bump": "npm version"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.1",
+    "axios": "^1.6.5"
+  }
 }
