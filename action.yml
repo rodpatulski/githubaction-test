@@ -3,5 +3,5 @@ description: 'Log a quote from your favorite Futurama character!'
 author: 'Colby Fayock <hello@colbyfayock.com>'
 
 runs:
-  using: 'node18'
+  using: 'node16'
   main: 'dist/index.js'
