@@ -6810,10 +6810,8 @@ var __webpack_exports__ = {};
 const axios = __nccwpck_require__(757);
 
 async function run() {
-  const response = await axios.get('https://futuramaapi.herokuapp.com/api/characters/dr-zoidberg/1');
-  const { data = [] } = response;
-  const firstEntry = data[0];
-  console.log(`${firstEntry.character}: ${firstEntry.quote}`);
+  const response = await axios.get('https://api.sampleapis.com/coffee/hot/1');
+  console.log(response.data.title);
 }
 
 run();
