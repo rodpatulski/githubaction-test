@@ -1,6 +1,6 @@
 {
   "name": "create-new-github-action-that-logs-hello-world-javascript-nodejs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Egghead - Create a New Github Action with Javascript",
   "author": "Colby Fayock <hello@colbyfayock.com>",
   "main": "dist/index.js",
