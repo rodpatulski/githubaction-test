@@ -1,7 +1,7 @@
-name: 'Hello World'
-description: 'Egghead - Create a New Github Action with Javascript'
+name: 'Futurama Dr. Zoidberg Quote'
+description: 'Log a quote from your favorite Futurama character!'
 author: 'Colby Fayock <hello@colbyfayock.com>'
 
 runs:
   using: 'node16'
-  main: 'index.js'
+  main: 'dist/index.js'
