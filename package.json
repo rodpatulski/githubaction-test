@@ -12,6 +12,10 @@
   "license": "MIT",
   "devDependencies": {
     "@vercel/ncc": "^0.38.1",
-    "axios": "^1.6.5"
+    "axios": "^1.14.0"
+  },
+  "overrides": {
+    "//": "Versions 1.14.1 and 0.30.4 have known security vulnerabilities. This override blocks both versions for direct and transitive dependencies while still allowing the latest safe release.",
+    "axios": ">=1.0.0 !=1.14.1 !=0.30.4"
   }
 }
